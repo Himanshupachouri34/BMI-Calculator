@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <span><a href="#">GitHub Profile</a></span>
+        <span><a href="#">Source Code</a></span>
+    </nav>
+   
+    <div class="container">
+        <h1>BMI Calculator</h1>
+        <form>
+            <p> Height in CM: <input type="text" id="height"></p>
+            <p> Weight in KG: <input type="text" id="Weight"></p>
+            <button>Calculate</button>
+            <br>
+            <div id="result"></div>
+
+            <ul id="list"> BMI Weight Guide :-
+                <Hr></Hr>
+                <li>A BMI of less than 18.5 suggests underweight.</li>
+                <li>A BMI of between 18.5 and 24.9 suggests a healthy weight range.</li>
+                <li>A BMI of between 25 and 29.9 may indicate overweight.</li>
+                <li>A BMI of 30 or higher may indicate obesity.</li>
+            </ul>
+            
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

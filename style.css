@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar span:hover{
+    background-color: rgb(108, 25, 217);
+    transition: 1.3s;
+    border-radius: 40%;
+}
+span{
+    border: 1px solid black;
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.container{
+    margin-top: 15vh;
+    margin-left: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    width: 50%;
+    background-color: lightgrey;
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+}
+.container form p{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.container form p input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.8px solid purple;
+    text-decoration: none;
+}
+
+button{
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(4, 139, 250, 0.548);
+}
+
+#result {
+
+   margin: 30px;
+}
+
